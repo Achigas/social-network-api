@@ -5,7 +5,7 @@ const userController = {
     getAllUsers(req,res) {
         User.find({})
         .select('-__v')
-        .then(dbUserData => res.join(dbUserData))
+        .then(dbUserData => res.json(dbUserData))
         .catch(err => {
             console.log(err)
             res.status(500).json(err)
@@ -20,7 +20,7 @@ const userController = {
                select: '-__v'
             })
            .select('-__v')
-           .then(dbUserData => res.join(dbUserData))
+           .then(dbUserData => res.json(dbUserData))
            .catch(err => {
                console.log(err)
                res.status(500).json(err)
