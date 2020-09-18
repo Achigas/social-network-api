@@ -18,7 +18,9 @@ This application uses MongoDB and Mongoose to handle the unstructured data of a 
 As a social media startup, I want an API for my social network that uses a NoSQL database so that my website can handle large amounts of unstructured data
 
 ## Video Walkthrough 
-[Alex Chigas -- Social Network API Walkthrough]()
+[Alex Chigas -- Social Network API Walkthrough](https://drive.google.com/file/d/1b8xvx6w_wZ0Kc4JrkkJsffH03dJLYQxr/view)
+
+The video walkthrough demonstrates the GET, POST, PUT, and DELETE for the users and thoughts. It also demonstrates the POST and DELETE methods for reactions and freind lists. 
 
 ## Setup
 * Clone GitHub repository 
